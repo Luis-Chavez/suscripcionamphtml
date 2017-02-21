@@ -84,7 +84,7 @@ var users = getQueryVariable("user");
 
 
 <script>
-document.write ('<div class='follow-by-email-inner2'> <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify'+ users +'', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>Enter your email address:</p><p><input type="text" style="width:140px" name="email"/></p><input type="hidden" value="'+ users +'" name="uri"/><input type="hidden" name="loc" value="es_ES"/><input class='btn2' type="submit" value="Subscribe" /></form> </div>');
+document.write ('<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=ForoAyudaDeBlogger', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>Enter your email address:</p><p><input type="text" style="width:140px" name="email"/></p><input type="hidden" value="ForoAyudaDeBlogger" name="uri"/><input type="hidden" name="loc" value="es_ES"/><input type="submit" value="Subscribe" /><p>Delivered by <a href="https://feedburner.google.com" target="_blank">FeedBurner</a></p></form>');
 </script>
 
 </body>
